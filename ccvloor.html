@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi sitio interactivo</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+            color: white;
+            font-family: sans-serif;
+            flex-direction: column;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 1.5em;
+            background-color: purple;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+        }
+
+        img {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button id="trustBtn">MENSAJE SOLO PARA CRISTOBAL CARRION. SI ERES TU TOCAME😳</button>
+    <p id="mensaje"></p>
+    <!-- GIF agregado -->
+    <img id="gif" src="besos amor.gif" style="display:none;" width="300" alt="GIF divertido">
+
+    <script>
+        const btn = document.getElementById('trustBtn');
+        const mensaje = document.getElementById('mensaje');
+        const gif = document.getElementById('gif');
+
+        btn.addEventListener('click', () => {
+            mensaje.textContent = "¡HOLA PRECIOSURA! TE AMUCHO WAWA 😎";
+            btn.style.display = 'none';
+            gif.style.display = 'block';
+        });
+    </script>
+</body>
+</html>
