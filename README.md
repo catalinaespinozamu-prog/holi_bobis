@@ -39,7 +39,7 @@
     <button id="trustBtn">MENSAJE SOLO PARA CRISTOBAL CARRION. SI ERES TU TOCAME😳</button>
     <p id="mensaje"></p>
     <!-- GIF agregado -->
-    <img id="gif" src="besos amor.gif" style="display:none;" width="300" alt="GIF divertido">
+    <img id="gif" src="besos_amor.gif" style="display:none;" width="300" alt="GIF divertido">
 
     <script>
         const btn = document.getElementById('trustBtn');
