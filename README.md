@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi sitio interactivo</title>
+    <title>Holi bobis</title>
     <style>
         body {
             display: flex;
